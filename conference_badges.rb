@@ -12,4 +12,4 @@ def batch_badge_creator (array)
   list_badge_message
 end
 
-def assign_rooms ()
+def assign_rooms (array)
