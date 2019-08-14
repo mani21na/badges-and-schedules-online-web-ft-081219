@@ -23,3 +23,4 @@ end
 def printer
   batch_badge_creator.each {|massage| puts massage}
   assign_rooms.each{|massage| puts massage}
+end
