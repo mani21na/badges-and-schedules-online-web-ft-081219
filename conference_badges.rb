@@ -2,7 +2,9 @@
 conference_speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz "]
 
 def badge_maker(conference_speakers)
-  conference_speakers.each{|name| puts "Hello, my name is #{name}."}
+  conference_speakers.each do |name|
+    puts "Hello, my name is #{name}."
+  end
 end
 
 
