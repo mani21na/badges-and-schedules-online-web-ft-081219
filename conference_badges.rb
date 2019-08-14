@@ -6,9 +6,9 @@ def badge_maker (name)
 end
 
 
-def batch_badge_creator (conference_speakers)
+def batch_badge_creator (array)
   list_badge_message = []
-  conference_speakers.each {|attend| list_badge_message << badge_maker(attend)}
+  array.each {|attend| list_badge_message << badge_maker(attend)}
   list_badge_message
 end
 
