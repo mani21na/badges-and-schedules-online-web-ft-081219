@@ -20,7 +20,7 @@ def assign_rooms (array)
   list_assighed_room
 end
 
-def printer
-  batch_badge_creator.each {|massage| puts massage}
-  assign_rooms.each{|massage| puts massage}
+def printer (array)
+  batch_badge_creator(array).each {|massage| puts massage}
+  assign_rooms(array).each{|massage| puts massage}
 end
